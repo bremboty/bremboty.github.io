@@ -1,11 +1,29 @@
-.labelA {
-	width: 190%;
+@media screen and (max-width: 600px) {
+  html {
+  	color: hotpink;
+  	
+  }
+}
+
+section {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	color: darkblue;
 }
 
 html {
 	text-align: center;
+	background-image: url("https://www.brandicarpet.com/wp-content/uploads/2015/04/Transparent-American-Flag.png");
+	background-size: 99%;
+	background-repeat: no-repeat;
+
 }
 
+#lastpic {
+	max-width: 30%;
+	max-height: 30%;
+}
 
 img {
 	max-width: 80%;
@@ -21,33 +39,80 @@ img {
 }
 
 article {
-	max-width: 29%;
+	padding: 1%;
+	max-width: 30%;
 	display: inline-block;
-	vertical-align: top;
 	color: darkblue;
+	vertical-align: top;
 }
 
 
+
 #fieldsetA {
+	text-transform: uppercase;
 	font-weight: bolder;
 	padding: 3%;
-	border: 25%;
-	border-width: 10%;
+	border: 5%;
+	border-width: 1%;
 	border-color: lightblue;
-	max-width: 45%;
+	max-width: 48%;
 	font-family: arial;
 	font-size: large;
 	display: inline-block;
 	vertical-align: top;
 }
 
+a:link {
+	background-color: lightblue;
+    color: white;
+    padding: 1% 1%;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited {
+	background-color: darkblue;
+    color: red;
+    padding: 1% 1%;
+    text-align: center; 
+    text-decoration: underline;
+    display: inline-block;
+}
+a:hover {
+	background-color: green;
+    color: yellow;
+    padding: 1% 1%;
+    text-align: center; 
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    display: inline-block;
+}
+a:active {
+	background-color: lavender;
+    color: white;
+    padding: 1% 1%;
+    text-align: center; 
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    display: inline-block;
+}
+
+#checkbox {
+	background-image: url("http://www.rstreet.org/wp-content/uploads/2016/02/ThinkstockPhotos-494386576.jpg");
+	padding: 5%;
+	background-size: 100%;
+	color: red;
+	text-align: center;
+}
+
 #fieldsetB {
-	font-weight: bolder;
+	
 	padding: 3%;
-	border: 25%;
-	border-width: 10%;
+	border: 5%;
+	border-width: 1%;
 	border-color: lightblue;
-	max-width: 40%;
+	max-width: 48%;
 	font-family: arial;
 	font-size: large;
 	display: inline-block;
@@ -65,10 +130,14 @@ textarea {
 	background-repeat: no-repeat;
 }
 
+label {
+	border-color: lightyellow;
+}
+
 input {
 	width: 100%;
-    padding: 12% 20%;
-    margin: 8% 0;
+    padding: 3% 3%;
+    margin: 3% 3%;
     box-sizing: border-box;
 }
 
