@@ -4,39 +4,45 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
- <form name="survey" action="https://httpbin.org/post" method="post">
- 	<fieldset border="2" ID="fieldsetA">
- 		<div>
- 			<label>name</label>
- 			<input type="text" name="name">
- 		</div>
- 		<div>
- 			<label>email</label>
- 			<input type="email" name="email">
- 		</div>
- 		<div>
- 			<label>age</label>
- 			<input type="text" name="age">
- 		</div>
- 	</fieldset>
- 
- 	<fieldset border="2" ID="fieldsetB">
- 		<div>
- 			<label>why do you love/hate the f35</label>
- 			<textarea name="textarea"></textarea>
- 		</div>
- 		<div>
- 			<h3>Check for yes leave unchecked for no</h3>
- 			<label>do you like the f35</label>
- 			<input type="checkbox" name="like?">
- 		</div>
- 		<div>
- 			<label>do you like snozzberries</label>
- 			<input type="checkbox" name="snozzberries">
- 		</div>
- 	</fieldset>
- 	<button type="submit">submit</button>
- </form>
+
+	<body>
+	 <form name="survey" action="https://httpbin.org/post" method="post">
+	 	<fieldset border="2" ID="fieldsetA">
+	 		<div>
+	 			<label class="labelA">name</label>
+	 			<input type="text" name="name">
+	 		</div>
+	 		<div>
+	 			<label class="labelA">email</label>
+	 			<input type="email" name="email">
+	 		</div>
+	 		<div>
+	 			<label class="labelA">age</label>
+	 			<input type="text" name="age">
+	 		</div>
+	 	</fieldset>
+	 
+	 	<fieldset border="2" ID="fieldsetB">
+	 		<div>
+	 			<label>why do you love/hate the f35</label>
+	 			<textarea placeholder="drag corner for more space..." name="textarea"></textarea>
+	 		</div>
+	 		<div>
+	 			<h3>Check for yes leave unchecked for no</h3>
+	 			<label>do you like the f35</label>
+	 			<input type="checkbox" name="like?">
+	 		</div>
+	 		<div>
+	 			<label>do you like snozzberries</label>
+	 			<input type="checkbox" name="snozzberries">
+	 		</div>
+	 	</fieldset>
+	 	
+	 </form>
+	 <footer>
+	 	<button type="submit">submit</button>
+	 </footer>
+	 
 </body>
+
 </html>

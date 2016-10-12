@@ -1,3 +1,91 @@
-body {
-	background: blue;
+.labelA {
+	width: 190%;
+}
+
+html {
+	text-align: center;
+}
+
+
+img {
+	max-width: 80%;
+}
+
+.header {
+	font-weight: bolder;
+	color: darkred;
+}
+
+#specialheader {
+	color: black;
+}
+
+article {
+	max-width: 29%;
+	display: inline-block;
+	vertical-align: top;
+	color: darkblue;
+}
+
+
+#fieldsetA {
+	font-weight: bolder;
+	padding: 3%;
+	border: 25%;
+	border-width: 10%;
+	border-color: lightblue;
+	max-width: 45%;
+	font-family: arial;
+	font-size: large;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#fieldsetB {
+	font-weight: bolder;
+	padding: 3%;
+	border: 25%;
+	border-width: 10%;
+	border-color: lightblue;
+	max-width: 40%;
+	font-family: arial;
+	font-size: large;
+	display: inline-block;
+	vertical-align: top;
+}
+
+textarea {
+	width: 80%;
+	height: 200%;
+	border: 10% solid blue;
+	padding: 0%;
+	font-family: arial;
+	background-color: lightgray;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+input {
+	width: 100%;
+    padding: 12% 20%;
+    margin: 8% 0;
+    box-sizing: border-box;
+}
+
+button {
+	padding: 1%;
+	text-decoration: wavy;
+	float: bottom;
+	font-size: 500%;
+	border-radius: 8%;
+	background-color: lightblue;
+    color: black;
+    border: 5% solid red;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+button:hover {
+	background-color: purple; 
+    color: white;
+
 }
