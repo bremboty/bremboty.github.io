@@ -1,8 +1,33 @@
 @media screen and (max-width: 600px) {
   html {
-  	color: hotpink;
+  
   	
   }
+}
+
+.D {
+	display: inline-block;
+	margin: 2%;
+	color: darkblue;
+	font-weight: bolder;
+	max-width: 43%;
+}
+
+.F {
+	display: inline-block;
+	color: darkred;
+	max-width: 99%;
+	margin: 2%;
+	font-size: x-large;
+
+}
+
+.J {
+	color: darkred;
+	max-width: 99%
+	text-align: center;
+	margin: 2%;
+	font-size: large;
 }
 
 section {
@@ -16,7 +41,7 @@ html {
 	text-align: center;
 	background-image: url("https://www.brandicarpet.com/wp-content/uploads/2015/04/Transparent-American-Flag.png");
 	background-size: 99%;
-	background-repeat: no-repeat;
+	background-repeat: repeat-vertical;
 
 }
 
