@@ -9,7 +9,7 @@
 	display: inline-block;
 	margin: 2%;
 	color: darkblue;
-	font-weight: bolder;
+	font-weight: bold;
 	max-width: 43%;
 }
 
@@ -20,6 +20,19 @@
 	margin: 2%;
 	font-size: x-large;
 
+}
+
+#ZZ {
+	text-align: left;
+	float: left;
+}
+
+.H {
+	max-width: 99%;
+	display: inline-block;
+	margin: 2%;
+	color: darkblue;
+	font-weight: bold;
 }
 
 .J {
